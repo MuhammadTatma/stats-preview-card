@@ -14,7 +14,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
@@ -41,8 +41,6 @@ Users should be able to:
 - CSS 
 - Flexbox
 
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 while working through this project i learn that as a person learning to write code, it's not only to get the output to work correctly, but it's also important to make the code readable so it's easy for others to understand and hopefully give feedback. because its my first submition to frontend mentor,i spend more time worried that my code wasn't good enough, but then i relized, if i get feedback from others it's make my code better and of course i have to show them to get that feedback.
