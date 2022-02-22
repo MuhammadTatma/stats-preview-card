@@ -13,6 +13,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [What I learned](#what-i-learned)  
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 
 
@@ -48,10 +49,15 @@ while working through this project i learn that as a person learning to write co
 ### Useful resources
 
 - [slack community](https://www.frontendmentor.io/slack) - This helped me see other submition approach and community feedback.
+- [choose the right html tag](https://web.dev/use-landmarks/) - this helped me to choose the right html tag and understand HTML5 landmark elements to improve navigation
+- [Write Good Alt text](https://supercooldesign.co.uk/blog/how-to-write-good-alt-text) -  helped me to write good alt text in img tag
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@MuhammadTatma](https://www.frontendmentor.io/profile/MuhammadTatma)
 - Twitter - [@MuhammadTatma](https://twitter.com/MuhammadTatma)
 
 
-
+## Acknowledgments
+- Dev Rathore - [@GitHub-dev12345](https://www.frontendmentor.io/profile/GitHub-dev12345)
+- PhoenixDev22 - [@PhoenixDev22](https://www.frontendmentor.io/profile/PhoenixDev22)
+Thanks a lot for the feedback, suggestions and useful resource links in frontendmentor community feedback
