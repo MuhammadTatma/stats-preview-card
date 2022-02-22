@@ -20,6 +20,14 @@
 }
 
 body{
+    background-color: var(--main-background);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    font-size: 1rem;
+    font-family: Inter, sans-serif;
     color: white;
 }
 
@@ -27,46 +35,32 @@ li{
     list-style: none;
 }
 
-.container{
-    background-color: var(--main-background);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;    
-    align-items: center;
-    font-size: 1rem;
-    font-family: Inter, sans-serif;
-}
-
-.card{    
+main{    
     background-color: hsl(244, 38%, 16%);
-    max-width: 65%;
+    max-width: 69.375rem;
     display: flex;
     flex-direction: row;    
     border-radius: 10px;    
     overflow: auto;
+    transform: scale(0.8);
     
     
 }
 
 .content{
     display: flex;
-    flex-direction: column;    
-    /* align-items: center; */
-    padding: 5% 5%;
-    width: 50%;
-    /* justify-content: center; */
+    flex-direction: column;        
+    padding: 5% 8% 5% 5% ;
+    width: 50%;    
 }
 
-header{
+h1{
+    font-size: 2.375rem ;
     margin-bottom: 1.5rem;
-}
-
-header h1{
     color: var(--main-heading);
 }
 
-header h1 span{
+h1 span{
     color: var(--accent);
 }
 
@@ -82,9 +76,6 @@ header h1 span{
     align-items: flex-end;
     max-width: 80%;    
     justify-content: space-between;
-    
-
-    
 }
 
 .stat-container li{
@@ -97,6 +88,7 @@ header h1 span{
 }
 
 .stat-heading{
+    display: block;
     font-family: "Lexend Deca", sans-serif;
     font-weight: bold;    
     font-size: 1.2rem;    
@@ -105,10 +97,10 @@ header h1 span{
 
 .image{
     position: relative;
-    width: 50%;        
+    width: 50%;      
 }
 
-.image img{
+.image img{    
     vertical-align: bottom;
     width: 100%;
     height: 100%;        
@@ -122,16 +114,18 @@ header h1 span{
     height: 100%;
     width: 100%;
     background-color: var(--accent);
-    opacity: .6;    
+    /* opacity: .9; */
+    mix-blend-mode: multiply;    
+    
 }
 
 
 @media screen and (max-width:960px){
-    .container{        
-        justify-content: space-between;
+    body{        
+        justify-content: space-around;
     }
     
-    .card{
+    main{
         margin: 20px auto;
         flex-direction: column-reverse;
         margin-bottom: 1.5rem;
@@ -169,7 +163,7 @@ header h1 span{
         max-width: 100%;
     }
 
-    .attribution{
+    footer{
         text-align: center;
 
     }
