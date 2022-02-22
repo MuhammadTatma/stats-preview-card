@@ -60,4 +60,5 @@ while working through this project i learn that as a person learning to write co
 ## Acknowledgments
 - Dev Rathore - [@GitHub-dev12345](https://www.frontendmentor.io/profile/GitHub-dev12345)
 - PhoenixDev22 - [@PhoenixDev22](https://www.frontendmentor.io/profile/PhoenixDev22)
+
 Thanks a lot for the feedback, suggestions and useful resource links in frontendmentor community feedback
