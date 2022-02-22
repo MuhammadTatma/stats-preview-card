@@ -127,8 +127,7 @@ ul li .stat-heading{
     main{
         margin: 20px auto;
         flex-direction: column-reverse;
-        margin-bottom: 1.5rem;
-        max-width: 85%;
+        margin-bottom: 1.5rem;        
     }
 
     .content{
