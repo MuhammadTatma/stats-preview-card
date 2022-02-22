@@ -123,19 +123,21 @@ ul li .stat-heading{
     main{
         margin: 20px auto;
         flex-direction: column-reverse;
-        margin-bottom: 1.5rem;        
+        margin-bottom: 1.5rem;
+        transform: scale(0.9);        
     }
 
     .content{
         text-align: center;                
         width: 100%;
     }
+
     .content{
         padding: 6%;
     }
 
-    header{
-        font-size: smaller;
+    h1{
+        font-size: 2rem;
     }
 
     .content p{
