@@ -110,7 +110,7 @@ ul li .stat-heading{
     height: 100%;
     width: 100%;
     background-color: var(--accent);    
-    mix-blend-mode: multiply;    
+    opacity: 0.5;
     
 }
 
